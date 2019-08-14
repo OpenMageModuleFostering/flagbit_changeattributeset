@@ -4,6 +4,7 @@
 		<Flagbit_ChangeAttributeSet>
 			<active>true</active>
 			<codePool>community</codePool>
+			<version>1.0.1</version>
 		</Flagbit_ChangeAttributeSet>
 	</modules>
 	<global>
@@ -20,7 +21,7 @@
 		<rewrite>
 			<!-- This is an identifier for your rewrite that should be unique -->
 			<flagbit_form_index>
-				<from><![CDATA[#^/admin/catalog_product/changeattributeset/$#]]></from>
+				<from><![CDATA[#^/admin/catalog_product/changeattributeset/.*#]]></from>
 				<!--
 					- mymodule matches the router frontname below
 					- checkout_cart matches the path to your controller
