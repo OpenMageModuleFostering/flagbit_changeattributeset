@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Flagbit_ChangeAttributeSet</name>
-    <version>1.0.2</version>
+    <version>1.0.4</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>In Magento every product has a fixed attribute set that cannot be changed after the product's creation. This is in many productive contexts not an acceptable limitation. This module overrides the standard behaviour and makes it possible to change attribute sets after the item's creation making Magento even more flexible. :) Fixed 404 Redirect Bug.</description>
     <notes>In Magento every product has a fixed attibute set. This module enables you to switch it.</notes>
     <authors><author><name>Flagbit GmbH </name><user>auto-converted</user><email>magento@flagbit.de</email></author></authors>
-    <date>2010-04-27</date>
-    <time>16:12:02</time>
-    <contents><target name="magecommunity"><dir name="Flagbit"><dir name="ChangeAttributeSet"><dir name="Block"><file name="ProductGrid.php" hash="b9581a01bc3bde231998594f753a851f"/></dir><dir name="controllers"><file name="IndexController.php" hash="99f4b7267e6b0edf65d929c7b3d2604e"/></dir><dir name="etc"><file name="config.xml" hash="d7c35a320ee286667a88a298b0a97c72"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Flagbit_ChangeAttributeSet.xml" hash="90087134613f57e05ebc216a6e576d4a"/></dir></target></contents>
+    <date>2010-06-07</date>
+    <time>16:25:02</time>
+    <contents><target name="magecommunity"><dir name="Flagbit"><dir name="ChangeAttributeSet"><dir name="Block"><file name="ProductGrid.php" hash="408ad70ad00ceafdd01198b7abac3f82"/></dir><dir name="controllers"><file name="IndexController.php" hash="e44e63dd4a7f6b2d47598e921c562e46"/></dir><dir name="etc"><file name="config.xml" hash="59b52c384688f9f73d86ccefcb7166df"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Flagbit_ChangeAttributeSet.xml" hash="90087134613f57e05ebc216a6e576d4a"/></dir></target></contents>
     <compatible/>
-    <dependencies/>
+    <dependencies><required><package><name>TBT_Enhancedgrid</name><channel>community</channel><min></min><max></max></package></required></dependencies>
 </package>

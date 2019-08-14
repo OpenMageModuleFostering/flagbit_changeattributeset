@@ -15,7 +15,7 @@
 /**
  * ChangeAttributeSet ProductGrid Block
  *
- * @version $Id: ProductGrid.php 256 2008-12-10 12:56:53Z weller $
+ * @version $Id: ProductGrid.php 282 2010-04-27 14:42:36Z fuhr $
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License, version 2
  */
 class Flagbit_ChangeAttributeSet_Block_ProductGrid
