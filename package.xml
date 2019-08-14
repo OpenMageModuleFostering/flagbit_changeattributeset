@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Flagbit_ChangeAttributeSet</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/gpl-license.php">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>In Magento every product has a fixed attibute set. This module enables you to switch it.</summary>
+    <description>In Magento every product has a fixed attribute set that cannot be changed after the product's creation. This is in many productive contexts not an acceptable limitation.
+
+This module overrides the standard behaviour and makes it possible to change attribute sets after the item's creation making Magento even more flexible. :)</description>
+    <notes>Initial Release. Already tested in production context.</notes>
+    <authors><author><name>Flagbit GmbH </name><user>auto-converted</user><email>magento@flagbit.de</email></author></authors>
+    <date>2008-12-10</date>
+    <time>13:15:11</time>
+    <contents><target name="mage"><dir name="app"><dir name="etc"><dir name="modules"><file name="Flagbit_ChangeAttributeSet.xml" hash="cebc1269daac2f616d11945af17f90a8"/></dir></dir></dir></target><target name="magecommunity"><dir name="Flagbit"><dir name="ChangeAttributeSet"><dir name="Block"><file name="ProductGrid.php" hash="82a3a37dfdf5e5caef3a4ab6395ea610"/></dir><dir name="controllers"><file name="IndexController.php" hash="f30b1e3ec8fd5ebebefff1b6026e4202"/></dir><dir name="etc"><file name="config.xml" hash="6a4d3fdaf5d22eef9265b545c4f5cd8f"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
