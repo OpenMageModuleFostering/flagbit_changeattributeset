@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Flagbit_ChangeAttributeSet",
+    "name": "OpenMageModuleFostering\/Flagbit_ChangeAttributeSet",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "In Magento every product has a fixed attibute set. This module enables you to switch it.",
     "authors": [
-    {
-        "name": "Flagbit GmbH ",
-        "email": "magento@flagbit.de"
-    }
-],
+        {
+            "name": "Flagbit GmbH ",
+            "email": "magento@flagbit.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
