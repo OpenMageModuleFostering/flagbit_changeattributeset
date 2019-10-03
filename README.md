@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 In Magento every product has a fixed attibute set. This module enables you to switch it.
